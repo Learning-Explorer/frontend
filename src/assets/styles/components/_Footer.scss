@@ -1,0 +1,20 @@
+.footer-container {
+  background-color: $background;
+  position: absolute;
+  width: 100%;
+  height: 52px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  img {
+    width: 100px;
+    height: 45px;
+    object-fit: cover;
+  }
+}
+
+.logo-github {
+  margin-left: 30px;
+}
