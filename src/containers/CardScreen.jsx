@@ -1,7 +1,11 @@
 import React from 'react';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const CardScreen = () => {
   return (
+  <>
+    <Header></Header>
     <section className="cardscreen">
       <div className="card">
         <div className="card__answer">
@@ -13,6 +17,8 @@ const CardScreen = () => {
         </button>
       </div>
     </section>
+    <Footer></Footer>
+  </>
   )
 }
 

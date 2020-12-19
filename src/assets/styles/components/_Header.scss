@@ -1,29 +1,29 @@
 .header-container {
-  background-color: $background;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 52px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
-  position: relative;
-  img {
-    width: 100px;
-    height: 45px;
-    object-fit: cover;
-    margin-left: 25px;
-  }
-  a {
-    width: 100px;
-    height: 28px;
-    padding: 8px 0.8em 6px;
-    text-decoration: none;
-    background-color: $btn-color;
-    color: $black;
-    cursor: pointer;
-    border: none;
-    border-radius: 3px;
-    box-sizing: border-box;
-    margin-right: 25px;
-  }
+    background-color: $background;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 52px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    position: relative;
+    img {
+        width: 100px;
+        height: 45px;
+        object-fit: cover;
+        margin-left: 25px;
+    }
+    .sesion__button {
+        width: 100px;
+        height: 28px;
+        padding: 8px 0.8em 6px;
+        text-decoration: none;
+        background-color: $btn-color;
+        color: $black;
+        cursor: pointer;
+        border: none;
+        border-radius: 3px;
+        box-sizing: border-box;
+        margin-right: 25px;
+    }
 }

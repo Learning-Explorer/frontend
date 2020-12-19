@@ -72,7 +72,7 @@ const CardsCourses = () => {
       {courses
         ? courses.map((data) => {
             return (
-              <a className="card" key={data.id}>
+              <a className="card" key={data.id} href="/cards">
                 <figure>
                   <img src={data.badge} alt="" />
                 </figure>
