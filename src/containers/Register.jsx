@@ -1,9 +1,13 @@
 import React from "react";
 import "../assets/styles/pages/Register.scss";
 import logo from "../assets/images/logo-platzimaster_1.png";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Register = function () {
     return (
+        <>
+        <Header></Header>
         <section className="container">
             <div className="container__img">
                 <figure className="img__logo">
@@ -32,12 +36,14 @@ const Register = function () {
                         <button type="submit" className="sub-button">REGÍSTRATE</button>
                     </form>
                     <p className="form-register-text">
-                        ¿Estás registrado? Ingresa <a href="/login.html">aquí</a>
+                        ¿Estás registrado? Ingresa <a href="/login">aquí</a>
                     </p>
                     <p id="message" className="text__mesagge-submit"></p>
                 </div>
             </div>
         </section>
+        <Footer></Footer>
+        </>
     );
 }
 export default Register;

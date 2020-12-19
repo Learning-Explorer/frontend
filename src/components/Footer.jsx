@@ -9,7 +9,7 @@ const Footer = () => {
         <img src={LOGO} alt="logo master" />
       </figure>
       <div className="github">
-        <a href="/">
+        <a href="https://github.com/Learning-Explorer/frontend" target="_blank" rel="noreferrer">
           <svg
             className="logo-github"
             height="32"

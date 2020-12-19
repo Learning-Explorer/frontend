@@ -1,9 +1,13 @@
 import React from "react";
 import "../assets/styles/pages/Login.scss";
 import logo from "../assets/images/logo-platzimaster_1.png";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Login = ()=>{
     return(
+        <>
+        <Header></Header>
         <section className="container">
         <div className="container__img">
             <figure className="img__logo">
@@ -28,12 +32,14 @@ const Login = ()=>{
                     <button type="submit" className="sub-button">INICIA SESIÓN</button>
                 </form>
                 <p className="form-register-text">
-                    ¿Aún no estás registrado? Ingresa <a href="/new-account.html">aquí</a>
+                    ¿Aún no estás registrado? Ingresa <a href="/register">aquí</a>
                 </p>
                 <p id="message" className="text__mesagge-submit"></p>
             </div>
         </div>
     </section>
+    <Footer></Footer>
+    </>
     );
 };
 
