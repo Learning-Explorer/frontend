@@ -1,0 +1,56 @@
+.cardscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: $background;
+
+  & .card {
+    border: 0;
+    border-radius: 10px;
+    width: 60%;
+    height: 40%;
+    background-color: $grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &__answer {
+      border: 0;
+      border-radius: 10px;
+      background-color: $green;
+      width: 40%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 10px 0;
+
+      & .title {
+        font-size: 1.3em;
+        margin-bottom: 10px;
+      }
+
+      & .subtitle {
+        font-size: 1.5em;
+      }
+    }
+
+    & button {
+      border: 0;
+      border-radius: 5px;
+      padding: 10px 20px;
+      background-color: $background;
+      color: white;
+      outline: none;
+
+      &:hover {
+        background-color: lighten($color: $background, $amount: 5);
+        cursor: pointer;
+      }  
+    }
+  }
+}
